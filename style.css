@@ -1,0 +1,39 @@
+body{
+    background-color: #15120e;
+}
+
+main
+{
+    display: flexbox;
+    border: 1px solid black;
+    border-radius: 30px;
+    align-items: center;
+    text-align: center;
+    background-color: antiquewhite;
+    margin-top: 30px;
+}
+
+.meu-botao {
+    background-color: #326e34; /* Cor de fundo */
+    border: none; /* Sem borda */
+    color: white; /* Cor do texto */
+    padding: 15px 32px; /* Espaçamento interno (topo/baixo e esquerda/direita) */
+    text-align: center; /* Alinhamento do texto */
+    text-decoration: none; /* Sem decoração de texto */
+    display: inline-block; /* Exibir como um bloco inline */
+    font-size: 16px; /* Tamanho da fonte */
+    margin: 4px 2px; /* Margem */
+    cursor: pointer; /* Cursor do mouse */
+    border-radius: 8px; /* Raio da borda */
+    width: 130px; /* Largura do botão */
+    height: 45px; /* Altura do botão */
+  }
+
+input
+{
+   margin: 20 20;
+   background-color: blanchedalmond;
+   border: 2px solid black;
+   border-radius: 30px;
+   height: 16px;
+}
